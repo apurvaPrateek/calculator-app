@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(90deg, white, grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "I1 I1 I1 I1"
+        "I2 I3 I4 I5"
+        "I6 I7 I8 I9"
+        "I10 I11 I12 I13"
+        "I14 I15 I16 I17"
+        "I18 I19 I20 I20";
+    justify-content: space-around;
+
+    background-color: rgb(5, 67, 92);
+    color: white;
+    border-radius: 5px;
+    padding: 30px 10px 10px 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* height: 600px; */
+    min-width: 400px;
+    border: 5px solid rgb(30, 29, 29);
+}
+
+.container div {
+    padding: 5px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 5px rgb(128, 128, 128);
+    width: 100%;
+    height: 75px;
+    min-width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.display {
+    grid-area: I1;
+    background-color: rgb(236, 241, 228);
+    color: black;
+    font-weight: 300;
+    font-size: 2rem;
+    height: 75px;
+    text-align: right;
+    padding: 5px;
+}
+
+.ac {
+    grid-area: I2;
+}
+
+.de {
+    grid-area: I3;
+}
+
+.decimal {
+    grid-area: I4;
+}
+
+.divide {
+    grid-area: I5;
+}
+
+.seven {
+    grid-area: I6;
+}
+
+.eight {
+    grid-area: I7;
+}
+
+.nine {
+    grid-area: I8;
+}
+
+.multiply {
+    grid-area: I9;
+}
+
+.four {
+    grid-area: I10;
+}
+
+.five {
+    grid-area: I11;
+}
+
+.six {
+    grid-area: I12;
+}
+
+.minus {
+    grid-area: I13;
+}
+
+.one {
+    grid-area: I14;
+}
+
+.two {
+    grid-area: I15;
+}
+
+.three {
+    grid-area: I16;
+}
+
+.plus {
+    grid-area: I17;
+}
+
+.zero-zero {
+    grid-area: I18;
+}
+
+.zero {
+    grid-area: I19;
+}
+
+.equals {
+    grid-area: I20;
+}
